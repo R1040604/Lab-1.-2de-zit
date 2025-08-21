@@ -1,0 +1,427 @@
+nav{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.titel{
+    font-family: 'Poppins', sans-serif;
+}
+.tekst{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav img{
+    max-width: 100%;
+}
+nav a{
+    color: #232323;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+#login{
+    background-color:#D6A0FF;
+    color: #232323;
+    border: 2px solid #232323;
+    border-radius: 20px;
+}
+.begin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.begin .intro{
+    max-width: 80%;
+    height: auto;
+    display: inline-block;
+    margin: 1rem 0;
+    order: 2;
+}
+.begin a{
+    background-color: #D6A0FF;
+    color: #232323;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: solid #232323;
+    border-width: 3px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 1rem 0;
+}
+h2{
+    align-self: center;
+}
+.register-container{
+    display: block;
+    padding: 1rem;
+}
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.register-form input, .register-form button{
+    padding: 0.8rem;
+    border: 1px solid #232323;
+    border-radius: 6px;
+}
+.register-image{
+    display: none;
+}
+.register-image img{
+    max-width: 100%;
+    height: auto;
+}
+ .register-form .register{
+    background-color: #D6A0FF;
+    border: 1px solid #232323;
+    border-radius: 10px;
+    color: #232323;
+    align-items: center;
+    text-align: center;
+    padding: 15px 10px;
+ }
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #232323;
+}
+#arrow img{
+    max-width: 50px;
+    margin-left: 20px;
+}
+.event{
+  padding: 2rem 0;
+  margin: 20px;
+  gap: 30px;
+
+}
+#inschrijven{
+  margin-top: 10px;
+  align-content: center;
+}
+#site-footer {
+  background-color: #2b1a1a;  /* donkerrood/bruine tint */
+  color: #ddd;                /* lichtgrijze tekst */
+  display: flex;
+  justify-content: space-between; /* links + rechts */
+  align-items: center;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+}
+#footer-left p {
+  margin: 0.2rem 0;
+}
+
+#footer-right {
+  display: flex;
+  gap: 1.5rem;   /* ruimte tussen links */
+}
+
+#footer-right a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+#footer-right a:hover {
+  text-decoration: underline; /* hover effect */
+}
+#blue{
+    color: rgb(4, 4, 151);
+}
+.over-ons {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; 
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.over-ons h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #1a3db8; 
+}
+
+.over-ons p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+
+.section-block {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Zorg dat de afbeeldingen responsive zijn */
+.section-block img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+#logout{
+  background-color: #D6A0FF;
+  color: #232323;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 16px;
+  border: 2px solid #232323;
+  border-radius: 20px;
+  margin-top: 1000px;
+}
+#inschrijven{
+  text-decoration: none;
+  background-color: #D6A0FF;
+  color: #232323;
+  padding: 10px;
+  border: 2px solid #232323;
+  border-radius: 20px;
+  align-self: center;
+}
+.help-forum {
+  display: flex;
+  flex-direction: column; /* mobiel standaard */
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form-container {
+  flex: 1;
+  width: 100%;
+}
+
+.form-container h1 {
+  text-align: center;
+  color: #0026a3;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #333;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+textarea {
+  border-radius: 20px;
+}
+
+button {
+  background-color: #c68eff;
+  border: none;
+  padding: 0.8rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #b376f0;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+
+}
+.contact{
+  background-color: #b376f0;
+  padding: 20px;
+  line-height: 40px;
+  margin-top: 100px;
+}
+.contact h1, .contact p{
+  text-align: center;
+}
+#vraag{
+  font-weight: bold;
+  margin-top: 2rem;
+}
+#welkom{
+  align-items: center;
+  text-align: center;
+}
+.login-btn {
+  background: #c084fc;
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+
+#signing {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+h2 {
+  color: #1d4ed8;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #c084fc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #fff;
+}
+
+button:hover {
+  background: #a855f7;
+}
+
+.image-section {
+  display: none;
+}
+
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+}
+@media (max-width: 600px) {
+  #site-footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .footer-right {
+    flex-wrap: wrap; 
+    justify-content: center;
+  }
+}
+@media (min-width: 800px) {
+    .register-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .register-image {
+    display: block;            
+    flex: 1;
+  }
+  .register-form {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+  }
+.register-image img {
+max-width: 300px;
+height: auto;
+margin-bottom: 1000px;
+margin-left: 625px;
+  }
+  .image-section {
+    display: block;
+  }
+  .image-section img {
+    margin-left: 20px;
+    margin-top: 50px;
+  max-width: 400px;
+  border-radius: 8px;
+}
+    .section-block {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+  .section-block:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .section-block p {
+    flex: 1;
+  }
+
+  .section-block img {
+    flex: 1;
+    object-fit: cover;
+  }
+   .help-forum {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .form-container {
+    flex: 1;
+    max-width: 600px;
+  }
+
+  .image-container {
+    flex: 1;
+    padding-left: 2rem;
+  }
+}
